@@ -1,0 +1,2 @@
+Invalid subprotocol: ['sub2', 'sub3']
+Invalid subprotocol: ['Sub1', 'suB2']

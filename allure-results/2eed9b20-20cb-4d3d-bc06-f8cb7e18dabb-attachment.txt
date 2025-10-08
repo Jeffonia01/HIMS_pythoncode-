@@ -1,0 +1,4 @@
+++Rcv raw: b'\x88\x80\xbfk\xd2x'
+++Rcv decoded: fin=1 opcode=8 data=b''
+++Sent raw: b'\x88\x82uLF\xf8v\xa4'
+++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'

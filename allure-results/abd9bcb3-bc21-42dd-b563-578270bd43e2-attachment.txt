@@ -1,0 +1,44 @@
+Exception ignored in: <coroutine object Runner.init at 0x00000242D2B38890>
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 2026, in init
+    async with open_nursery() as run_sync_soon_nursery:
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 1026, in __aexit__
+    new_exc = await self._nursery._nested_child_finished(exc)
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 1188, in _nested_child_finished
+    self._add_exc(nested_child_exc)
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 1166, in _add_exc
+    self.cancel_scope.cancel()
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_ki.py", line 183, in wrapper
+    return fn(*args, **kwargs)
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 866, in cancel
+    self._cancel_status.recalculate()
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 459, in recalculate
+    task._attempt_delivery_of_any_pending_cancel()
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 1541, in _attempt_delivery_of_any_pending_cancel
+    self._attempt_abort(raise_cancel)
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 1523, in _attempt_abort
+    success = self._abort_func(raise_cancel)
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_io_windows.py", line 740, in abort_fn
+    self._refresh_afd(base_handle)
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_io_windows.py", line 653, in _refresh_afd
+    _check(
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_io_windows.py", line 301, in _check
+    raise_winerror()
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_windows_cffi.py", line 520, in raise_winerror
+    raise OSError(0, msg, filename, winerror, filename2)
+OSError: [WinError 6] The handle is invalid
+Exception ignored in: <function Nursery.__del__ at 0x00000242D09D2AC0>
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 1368, in __del__
+    assert not self._children
+AssertionError: 
+Exception ignored in: <function Nursery.__del__ at 0x00000242D09D2AC0>
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 1368, in __del__
+    assert not self._children
+AssertionError: 
+Exception ignored in: <function Nursery.__del__ at 0x00000242D09D2AC0>
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 1368, in __del__
+    assert not self._children
+AssertionError: 

@@ -1,0 +1,6 @@
+++Rcv raw: b'\x01\x9b_\x9cG)\x10\xf2$L\x7f\xf1([:\xbc2G+\xf3g]7\xf9gK-\xf9&J7\xb0g'
+++Rcv decoded: fin=0 opcode=1 data=b'Once more unto the breach, '
+++Rcv raw: b'\x00\x8e~\xf7\xd7\xea\x1a\x92\xb6\x98^\x91\xa5\x83\x1b\x99\xb3\x99R\xd7'
+++Rcv decoded: fin=0 opcode=0 data=b'dear friends, '
+++Rcv raw: b'\x80\x89\xc91\x10\xf8\xa6_s\x9d\xe9\\\x7f\x8a\xac'
+++Rcv decoded: fin=1 opcode=0 data=b'once more'

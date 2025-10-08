@@ -1,0 +1,15 @@
+Exception ignored in: <coroutine object Runner.init at 0x00000242D2B39340>
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_tests\tutil.py", line 59, in gc_collect_harder
+    gc.collect()
+RuntimeError: coroutine ignored GeneratorExit
+Exception ignored in: <function Nursery.__del__ at 0x00000242D09D2AC0>
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 1368, in __del__
+    assert not self._children
+AssertionError: 
+Exception ignored in: <function Nursery.__del__ at 0x00000242D09D2AC0>
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_run.py", line 1368, in __del__
+    assert not self._children
+AssertionError: 

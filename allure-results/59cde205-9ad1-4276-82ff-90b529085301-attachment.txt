@@ -1,0 +1,8 @@
+[35mDEBUG   [0m websocket:_logging.py:94 ++Rcv raw: b'\x01\x89+$\x87\x15\x7fK\xe85FQ\xe4}\x0b'
+[35mDEBUG   [0m websocket:_logging.py:94 ++Rcv decoded: fin=0 opcode=1 data=b'Too much '
+[35mDEBUG   [0m websocket:_logging.py:94 ++Rcv raw: b'\x89\x90K\xa8\xebm\x1b\xc4\x8e\x0c8\xcd\xcb=\x04\xe6\xacM?\xc0\x82\x1e'
+[35mDEBUG   [0m websocket:_logging.py:94 ++Rcv decoded: fin=1 opcode=9 data=b'Please PONG this'
+[35mDEBUG   [0m websocket:_logging.py:94 ++Sent raw: b'\x8a\x90abcd1\x0e\x06\x05\x12\x07C4.,$D\x15\n\n\x17'
+[35mDEBUG   [0m websocket:_logging.py:94 ++Sent decoded: fin=1 opcode=10 data=b'Please PONG this'
+[35mDEBUG   [0m websocket:_logging.py:94 ++Rcv raw: b'\x80\x8f\x03e8zl\x03\x18\x1b#\x02W\x15gEL\x12j\x0b_'
+[35mDEBUG   [0m websocket:_logging.py:94 ++Rcv decoded: fin=1 opcode=0 data=b'of a good thing'

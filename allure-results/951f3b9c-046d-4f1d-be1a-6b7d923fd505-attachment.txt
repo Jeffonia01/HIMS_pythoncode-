@@ -1,0 +1,36 @@
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+NEED_DATA
+Response(headers=<Headers([(b'server', b'SimpleHTTP/0.6 Python/3.13.1'), (b'date', b'Thu, 20 Feb 2025 09:27:33 GMT'), (b'content-type', b'application/octet-stream'), (b'content-length', b'65'), (b'last-modified', b'Mon, 17 Feb 2025 12:45:59 GMT')])>, http_version=b'1.0', reason=b'OK', status_code=200)
+NEED_DATA
+Data(data=bytearray(b'92b12bc045'), chunk_start=False, chunk_end=False)
+NEED_DATA
+Data(data=bytearray(b'050b55b848'), chunk_start=False, chunk_end=False)
+NEED_DATA
+Data(data=bytearray(b'd37167a1a6'), chunk_start=False, chunk_end=False)
+NEED_DATA
+Data(data=bytearray(b'3947c36457'), chunk_start=False, chunk_end=False)
+NEED_DATA
+Data(data=bytearray(b'9889ce1d39'), chunk_start=False, chunk_end=False)
+NEED_DATA
+Data(data=bytearray(b'788e45e9fa'), chunk_start=False, chunk_end=False)
+NEED_DATA
+Data(data=bytearray(b'c9e5\n'), chunk_start=False, chunk_end=False)
+EndOfMessage(headers=<Headers([])>)

@@ -1,0 +1,1 @@
+{"uuid": "e4675a1a-2ab5-462b-8ebc-7508516a554c", "children": ["e205bd18-22a1-48aa-9408-dee2c8a4c7c3"], "befores": [{"name": "socketpair", "status": "passed", "start": 1740044461894, "stop": 1740044461895}], "afters": [{"name": "socketpair::0", "status": "passed", "start": 1740044461897, "stop": 1740044461897}], "start": 1740044461894, "stop": 1740044461897}

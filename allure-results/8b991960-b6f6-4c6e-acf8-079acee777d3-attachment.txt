@@ -1,0 +1,20 @@
+[35mDEBUG   [0m websocket:_logging.py:94 --- response header ---
+[35mDEBUG   [0m websocket:_logging.py:94 HTTP/1.1 101 WebSocket Protocol Handshake
+[35mDEBUG   [0m websocket:_logging.py:94 Connection: Upgrade
+[35mDEBUG   [0m websocket:_logging.py:94 Upgrade: WebSocket
+[35mDEBUG   [0m websocket:_logging.py:94 Sec-WebSocket-Accept: Kxep+hNu9n51529fGidYu7a3wO0=
+[35mDEBUG   [0m websocket:_logging.py:94 some_header: something
+[35mDEBUG   [0m websocket:_logging.py:94 -----------------------
+[35mDEBUG   [0m websocket:_logging.py:94 --- response header ---
+[35mDEBUG   [0m websocket:_logging.py:94 HTTP/1.1 101 WebSocket Protocol Handshake
+[35mDEBUG   [0m websocket:_logging.py:94 Connection: Upgrade, Keep-Alive
+[35mDEBUG   [0m websocket:_logging.py:94 Upgrade: WebSocket
+[35mDEBUG   [0m websocket:_logging.py:94 Sec-WebSocket-Accept: Kxep+hNu9n51529fGidYu7a3wO0=
+[35mDEBUG   [0m websocket:_logging.py:94 Set-Cookie: Token=ABCDE
+[35mDEBUG   [0m websocket:_logging.py:94 Set-Cookie: Token=FGHIJ
+[35mDEBUG   [0m websocket:_logging.py:94 some_header: something
+[35mDEBUG   [0m websocket:_logging.py:94 -----------------------
+[35mDEBUG   [0m websocket:_logging.py:94 --- response header ---
+[35mDEBUG   [0m websocket:_logging.py:94 HTTP/1.1 101 WebSocket Protocol Handshake
+[35mDEBUG   [0m websocket:_logging.py:94 Connection: Upgrade
+[35mDEBUG   [0m websocket:_logging.py:94 Upgrade WebSocket

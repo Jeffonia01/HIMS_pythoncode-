@@ -1,0 +1,2 @@
+[31m[1mERROR   [0m websocket:_logging.py:77 Invalid subprotocol: ['sub2', 'sub3']
+[31m[1mERROR   [0m websocket:_logging.py:77 Invalid subprotocol: ['Sub1', 'suB2']
