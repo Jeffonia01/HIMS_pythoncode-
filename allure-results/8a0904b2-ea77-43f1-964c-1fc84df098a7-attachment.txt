@@ -1,1 +1,0 @@
-{'method': 'GET', 'target': '/some-path', 'headers': {'accept-encoding': 'identity', 'host': '127.0.0.1:64231', 'user-agent': 'Python-urllib/3.13', 'connection': 'close'}}

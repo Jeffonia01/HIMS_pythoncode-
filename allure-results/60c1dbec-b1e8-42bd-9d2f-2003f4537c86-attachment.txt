@@ -1,4 +1,0 @@
-scheduling stuff to happen
-before_io_wait(9999)
-setting deadline 1000000000.0
-instrument triggered

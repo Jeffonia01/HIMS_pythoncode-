@@ -139,6 +139,13 @@ def setup_Humanresource(driver):
     time.sleep(2)
     
     
+def Human_resource(driver):
+    jeffonia(driver, By.XPATH, '//a[@href="https://qa-hms.plenome.com/admin/staff"]', "click")
+    jeffonia(driver, By.XPATH, '')
+    
+    
+    
+    
     
 
     
@@ -147,11 +154,11 @@ def setup_Humanresource(driver):
 
     
     
-            
 # ---------- pytest test ----------
 def test_master_setup(browser):
     run_master_setup(browser)
     setup_Humanresource(browser)
+    Human_resource(browser)
 
 # ---------- Manual runner ----------
 if __name__ == "__main__":

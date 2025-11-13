@@ -1,8 +1,0 @@
-[1m[31mERROR   [0m trio.abc.Instrument:_instrumentation.py:103 Exception raised when calling 'task_scheduled' on instrument <trio._core._tests.test_instrumentation.test_instruments_crash.<locals>.BrokenInstrument object at 0x0000026B483A0EC0>. Instrument has been disabled.
-Traceback (most recent call last):
-  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_instrumentation.py", line 100, in call
-    getattr(instrument, hookname)(*args)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
-  File "C:\Users\ADMIN\OneDrive\Desktop\PHP_HIMS\Lib\site-packages\trio\_core\_tests\test_instrumentation.py", line 187, in task_scheduled
-    raise ValueError("oops")
-ValueError: oops

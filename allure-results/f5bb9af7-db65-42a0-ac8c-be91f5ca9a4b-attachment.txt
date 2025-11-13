@@ -1,4 +1,0 @@
-[35mDEBUG   [0m websocket:_logging.py:94 ++Rcv raw: b'\x01\x8b\xc1C\xbe\x92\x831\xdb\xe4\xa87\xc7\xb2\xa80\x9e'
-[35mDEBUG   [0m websocket:_logging.py:94 ++Rcv decoded: fin=0 opcode=1 data=b'Brevity is '
-[35mDEBUG   [0m websocket:_logging.py:94 ++Rcv raw: b'\x80\x8f1\xa2/\xe5E\xcaJ\xc5B\xcdZ\x89\x11\xcdI\xc5F\xcb['
-[35mDEBUG   [0m websocket:_logging.py:94 ++Rcv decoded: fin=1 opcode=0 data=b'the soul of wit'

@@ -1,4 +1,0 @@
-[35mDEBUG   [0m websocket:_logging.py:94 ++Rcv raw: b'\x88\x80\xbfk\xd2x'
-[35mDEBUG   [0m websocket:_logging.py:94 ++Rcv decoded: fin=1 opcode=8 data=b''
-[35mDEBUG   [0m websocket:_logging.py:94 ++Sent raw: b'\x88\x82uLF\xf8v\xa4'
-[35mDEBUG   [0m websocket:_logging.py:94 ++Sent decoded: fin=1 opcode=8 data=b'\x03\xe8'
